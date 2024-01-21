@@ -8,6 +8,7 @@ import { ThirdSection } from "./components/thirdsection";
 import { FourthSection } from "./components/fourthsection";
 import { FifthSection } from "./components/fifthsection";
 import { SixthSection } from "./components/sixthsection";
+import { SeventhSection } from "./components/seventhsection";
 
 const Dashboard = () => {
   return (
@@ -19,6 +20,7 @@ const Dashboard = () => {
         <FourthSection />
         <FifthSection />
         <SixthSection />
+        <SeventhSection />
       </DashboardWrapper>
     </Layout>
   )

@@ -3,6 +3,7 @@ import { Stack } from "@mui/material";
 import { useEffect, useState } from "react";
 import { styled } from "@mui/material/styles";
 import { Header } from "./header";
+import { Footer } from "./footer";
 
 const Layout = ({ children }: React.PropsWithChildren) => {
 	const [sticky, setSticky] = useState<boolean>(false);
@@ -25,6 +26,7 @@ const Layout = ({ children }: React.PropsWithChildren) => {
 		<LayoutWrapper>
 			<Header sticky={sticky} />
 			{children}
+			<Footer />
 		</LayoutWrapper>
 	)
 }
