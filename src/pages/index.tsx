@@ -6,6 +6,8 @@ import { FirstSection } from "./components/firstsection";
 import { SecondSection } from "./components/secondsection";
 import { ThirdSection } from "./components/thirdsection";
 import { FourthSection } from "./components/fourthsection";
+import { FifthSection } from "./components/fifthsection";
+import { SixthSection } from "./components/sixthsection";
 
 const Dashboard = () => {
   return (
@@ -15,6 +17,8 @@ const Dashboard = () => {
         <SecondSection />
         <ThirdSection />
         <FourthSection />
+        <FifthSection />
+        <SixthSection />
       </DashboardWrapper>
     </Layout>
   )

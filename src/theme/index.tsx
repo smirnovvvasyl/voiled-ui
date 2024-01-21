@@ -179,8 +179,23 @@ const MuiThemeProvider = ({ children }: any) => {
     }
   }
 
+  theme.typography.body2 = {
+    ...theme.typography.body2,
+
+    fontSize: 20,
+    color: theme.palette.common.typograph2,
+
+    [theme.breakpoints.down('lg')]: {
+      fontSize: 17,
+    },
+
+    [theme.breakpoints.down('md')]: {
+      fontSize: 14,
+    }
+  }
+
   theme.typography.body1 = {
-    ...theme.typography.h6,
+    ...theme.typography.body1,
 
     fontSize: 16,
     color: theme.palette.common.white,
